@@ -5,7 +5,7 @@ var handleClick = function(event) {
 };
 
 $(function() {
-  $('a[href="/remove-note"]').on('click', handleClick);
+  $('#note-list').on('click', 'a[href="/remove-note"]', handleClick);
 
   $('form#note-form').on('submit', function(e) {
     e.preventDefault();
@@ -14,7 +14,6 @@ $(function() {
     var $note = $('li.template').first().clone();
     $note.removeClass('template');
     $note.prepend($noteBody.val());
-    $note.find('a').on('click', handleClick);
     $noteBody.val('');
     $('#note-list').append($note);
   });
