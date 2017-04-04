@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://raw.githubusercontent.com/codefellows/seattle-301d18/master/04-handlebars/README.md">redirected</a>.</body></html>
