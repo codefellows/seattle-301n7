@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <script type="text/template" id="template">
+    <h1>Hello from {{0}}</h1>   
+    <p>{{1}} is awesome</p>
+    <p>{{2}} is not quite as awesome</p>
+  </script>
+</head>
+<body>
+  <main id="content"></main>
+  <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+  <script>
+    var content = ['javascript', 'coffee', 'homework'];
+    var $template = $('#template').html();
+    var $final = $template.replace(/{{(\d+)}}/g, function(matched, number) {
+      return content[number];
+    });
+    $('#content').append($final);
+  </script>
+</body>
+</html>

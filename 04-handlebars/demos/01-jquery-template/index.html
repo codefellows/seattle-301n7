@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <script type="text/template" id="template">
+    <h1>Hello from a template</h1>
+  </script>
+</head>
+<body>
+  <main id="content"></main>
+  <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+  <script>
+    $('#content').append($('#template').html());
+  </script>
+</body>
+</html>
