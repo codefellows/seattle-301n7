@@ -1,0 +1,26 @@
+{
+  "name": "demo-2-npm-package-json",
+  "version": "0.1.0",
+  "description": "a demonstration app for 301n7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows/seattle-301n7.git"
+  },
+  "keywords": [
+    "codefellows",
+    "demonstration"
+  ],
+  "author": "tyler@codfellows.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codefellows/seattle-301n7/issues"
+  },
+  "homepage": "https://github.com/codefellows/seattle-301n7#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
