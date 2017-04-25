@@ -1,73 +1,32 @@
-# Code 301, Class 10: ***Functional Programming***
+# Code 301: Intermediate Software Development
 
-## Today's Plan
+Welcome to Code 301! This is a class that builds on your fundamental knowledge of HTML, CSS, JavaScript, git, and general web development, to prepare you for the deep dive of any Code 401 class.
 
-- Week In Review, and What Lies Ahead
-- Code Review
+# Introduction
 
-`10 minute break`
+We are going to learn about many different topics of web development. The overall structure of the course is based on Model-View-Controller (MVC), which is a common design pattern for web applications.
 
-*"Sometimes, the elegant implementation is just a function.  Not a method.  Not a class.  Not a framework.  Just a function."* - [John Carmack](https://twitter.com/id_aa_carmack/status/53512300451201024)
+The general course schedule is:
 
-**Scope and related topics**
+Full Time  | Part Time    | Topic
+-----------|--------------|---------------
+Week 1     | Week 1 and 2 | The View
+Week 2     | Week 3 and 4 | The Model
+Week 3     | Week 5 and 6 | The Controller
+Week 4     | Week 7 and 8 | Your Project
 
-- Review on the basics of scope
+## Slides from class
 
-- [Closures](https://www.joezimjs.com/javascript/javascript-closures-and-the-module-pattern/)
-	- IIFEs & Encapsulation
-	- The Javascript Module Pattern
+- Slides will be placed in each class' lecture subdirectory after they are presented.
 
-[**Slides: Functional Programming!**](10-functional-programming.pdf)
+## Lecture Videos
 
-- FP: Why? What?
+- A YouTube Playlist link will be Slacked out during the first week.
 
-- FP in JS
+## Assignments
 
-- Immutability
+Lab-time code assignments follow each class time. You can find these assignments in the subdirectories of each class folder. Generally, you'll have a "pair" assignment that you'll work on with a classmate, and an individual "sandbox" assignment in which you'll build up your own online portfolio. Useful for your coming career change!
 
-- Declarative vs Imperative code
+Instructions for completing and submitting the assignments can be found in the README files of the appropriate subdirectories.
 
-	- Examples of imperative coding
-	- Examples of declarative programming - using JavaScript array methods like** map, filter**, and **reduce**
-
-- Stateless (Pure) functions
-
-- First-class functions
-
-`10-minute break`
-
-**Demo**
-
-- forEach
-
-- map
-
-- reduce
-
-- filter
-
-- [ES6 arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-
-- Where [can I use](http://caniuse.com/#feat=arrow-functions) arrow functions? Let's be sure to look at the history of implementation into different browsers, too!
-
-- Article: [When NOT to use arrow functions](https://rainsoft.io/when-not-to-use-arrow-functions-in-javascript/)
-
-- Basics of working with the JavaScript **this** keyword
-
-**Lab Prep**
-
-- Let's review the starter code and TODOs!
-
-## Useful resources
-
-##### Class 10 Readings (to be completed before class)
-
-* *READ: Js&JQ p 528-543 (Essential)*
-
-* *[Eloquent JavaScript, Ch.5 Higher Order Function*s](http://eloquentjavascript.net/05_higher_order.html)* (Essential)*
-
-## Class 10 Learning Objectives
-
-* Understand advantages of functional programming and reasons for its recent rise in popularity
-* Correctly use** forEach, map, filter, reduce** functions to explore and modify a data set
-* Construct modularity with IIFE patterns
+Assignments are submitted using a professional-grade Git-flow. If you haven't done so already, it's time to get comfortable with the core Git commands. Don't worry, we'll give you step by step help as needed.
