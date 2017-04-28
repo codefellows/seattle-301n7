@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic</title>
+    <script src="/page.js"></script>
+    <base href="/basic/" >
+  </head>
+  <body>
+    <h1>Basic</h1>
+    <p></p>
+    <ul>
+      <li><a href="./">/</a></li>
+      <li><a href="#whoop">#whoop</a></li>
+      <li><a href="./about">/about</a></li>
+      <li><a href="./contact">/contact</a></li>
+      <li><a href="./contact/me">/contact/me</a></li>
+      <li><a href="./not-found?foo=bar">/not-found</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.js"></script>
+
+    <script>
+      // the "notfound" implements a catch-all
+      // with page('*', notfound). Here we have
+      // no catch-all, so page.js will redirect
+      // to the location of paths which do not
+      // match any of the following routes
+      //
+      page.base('/basic');
+
+      page('/', index);
+      page('/about', about);
+      page('/contact', contact);
+      page('/contact/:contactName', contact);
+      page('/contact/:firstname/:lastname', contactFullName);
+      page();
+
+      function index() {
+        $('p').text('viewing index');
+      }
+
+      function about() {
+        $('p').text('viewing about');
+      }
+
+      function contact(ctx) {
+        console.log(ctx);
+        $('p').text(`viewing contact ${ctx.params.contactName || ''}`);
+      }
+
+      function contactFullName(ctx) {
+        console.log('from contactFullName');
+        $('p').text(`viewing contact ${ctx.params.firstname} ${ctx.params.lastname}`);
+      }
+    </script>
+  </body>
+</html>
