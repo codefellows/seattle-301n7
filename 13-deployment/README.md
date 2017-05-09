@@ -8,7 +8,7 @@
 
 - Reminder: the entrance exam for the 401 courses (which doubles as the final exam for this course) will be published on Friday afternoon and be available until 11:59pm Sunday.
 
-- 	If you'd like to schedule a one-on-one meeting with Sam over the next week, please select one of the slots available at [this link](https://sam-301d18.youcanbook.me/).
+- 	If you'd like to schedule a one-on-one meeting with Tyler over the next week, please select one of the slots available at [this link](https://toasty.youcanbook.me/).
 
 **[Slides: Deployments](13-deployments.pdf)**
 
